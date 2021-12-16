@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cute_cat1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="48dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center|start"
+        android:onClick="onClick"
+        android:alpha="0.35"
+        android:background="@drawable/left_arrow"
+        android:text="@string/button_fr"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="48dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center|end"
+        android:onClick="onClick"
+        android:alpha="0.35"
+        android:background="@drawable/right_arrow"
+        android:text="@string/button1_fr"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+</FrameLayout>

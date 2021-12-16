@@ -12,4 +12,15 @@
     <string name="textview3">TextView</string>
     <string name="textview4">TextView</string>
     <string name="textview5">TextView</string>
+    <string name="button_cl">Отправить</string>
+    <string name="textview1_cl">TextView</string>
+    <string name="textview2_cl">TextView</string>
+    <string name="textview3_cl">TextView</string>
+    <string name="textview4_cl">TextView</string>
+    <string name="textview5_cl">TextView</string>
+    <string name="textview6_cl">TextView</string>
+    <string name="button1_cl">Ver1</string>
+    <string name="button2_cl">Ver3</string>
+    <string name="button_fr">,</string>
+    <string name="button1_fr">.</string>
 </resources>
